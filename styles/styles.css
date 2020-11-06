@@ -1,0 +1,61 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 50px;
+}
+#banner-top {
+    background-color: gray;
+    color: white;
+    border-color: rgb(0, 238, 255);
+    border-width: 5px;
+    border-style: solid;
+}
+#my-name {
+    /*
+    float: right;
+    */
+    text-align: right;
+    margin-right: 20px;
+}
+#top-nav {
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    color:transparent;
+    position: fixed;
+    right: 100px;
+  
+}
+.paragraph-block {
+    text-align: center;
+    margin: 25px;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#about {
+    padding-top: 50px;
+}
+#language-list {
+    columns: 2;
+}
+
+a:link {
+    color: black;
+    background-color:transparent;
+    text-decoration: underline;
+  }
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: rgb(0, 238, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
